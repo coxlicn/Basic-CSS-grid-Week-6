@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: white;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(2,100px);
+        grid-template-columns: repeat(2,100px );
+        gap: 10px;
+
+    }
+    .box1{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+    .box2{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+    .box3{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+    }
+    .box4{
+        width: 100px;
+        height: 100px;
+        background-color: yellow;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+
+    </div>
+    
+</body>
+</html>
